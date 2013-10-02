@@ -73,7 +73,7 @@ def get_parents_parent_relatives(strain_node):
 def strain_to_node(tree,strain):
     """Returns the strain object in the tree"""
     start = time.time()
-    print "strain to node took",time.time()-start
+    # print "strain to node took",time.time()-start
     return tree.find_node_with_taxon_label(strain)
 
 # ASHDBASKDNAOUSD
