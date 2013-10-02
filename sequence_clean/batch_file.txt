@@ -1,0 +1,11 @@
+removegaps3000.exe sequencesfasta.txt numbers.dat
+readsynec.exe fasta.dat
+correctpcr.exe population.dat pcrerror.dat
+divergencematrix.exe correctpcr.out
+binningdanny.exe identitymatrix.dat binlevels.dat
+ 
+User-supplied:
+sequencesfasta.txt
+numbers.dat
+pcrerror.dat
+binlevels.dat
